@@ -10,3 +10,11 @@ SSD 는 전자식 장치이며 HDD 보다 훨씬 빠르다. (OLTP 환경에서 1
 
 랜덤 I/O 가 순차 I/O 보다 부하가 더 크다. 쿼리를 튜닝해서 필요없는 랜덤 I/O 를 줄여야 한다.
 
+### 2. 인덱스란?
+
+인덱스는 INSERT, UPDATE, DELETE 의 성능을 희생하고 그 대신 읽기 속도를 높이는 기능이다.
+
+MySQL 의 key 와 index 는 같은 개념이다.
+
+인덱스의 구분은 primary key, secondary key 로 나뉠 수 있다.
+
